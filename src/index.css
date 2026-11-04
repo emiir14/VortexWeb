@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-gold-300: #FDE68A;
+  --color-gold-400: #F59E0B;
+  --color-gold-500: #D97706;
+  --color-gold-accent: #E5A93C;
+  --color-vortex-deep: #080C14;
+  --color-vortex-surface: #0E1726;
+  --color-vortex-border: rgba(229, 169, 60, 0.15);
+  --color-angels-bg: #FAF8F5;
+  --color-angels-surface: #FFFFFF;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #080C14;
+    color: #F3F4F6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom subtle canvas paper texture */
+.canvas-grain {
+  background-image: radial-gradient(rgba(229, 169, 60, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080C14;
+}
+::-webkit-scrollbar-thumb {
+  background: #232D3F;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5A93C;
+}

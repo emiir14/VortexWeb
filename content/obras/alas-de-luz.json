@@ -1,0 +1,29 @@
+{
+  "slug": "alas-de-luz",
+  "titulo": {
+    "es": "Alas de Luz y Silencio",
+    "en": "Wings of Light & Silence"
+  },
+  "coleccion": "meditation-angels",
+  "medidas": "61 × 91 cm",
+  "tecnica": "Óleo translúcido, veladuras y polvo de oro sobre lienzo de algodón",
+  "tecnica_en": "Translucent oil, glazes and gold dust on cotton canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "frase": {
+    "es": "Un espacio de quietud donde la luz blanca y el lila suave abren paso a la contemplación.",
+    "en": "A sanctuary of stillness where white light and soft lilac give way to contemplation."
+  },
+  "imagenPrincipal": "/obras/alas-de-luz/main.jpg",
+  "imagenesDetalle": [
+    "/obras/alas-de-luz/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/alas-de-luz/main.jpg",
+  "alt": {
+    "es": "Pintura etérea vertical 61 × 91 cm en blanco alabastro, lavanda suave y trazos dorados que sugieren alas de luz.",
+    "en": "Ethereal vertical 61 × 91 cm painting in alabaster white, soft lavender and golden strokes suggesting wings of light."
+  },
+  "isPlaceholder": true,
+  "placeholderNote": "[OBRA DE MUESTRA PRELIMINAR - PENDIENTE FOTO FINAL DE LA ARTISTA]"
+}

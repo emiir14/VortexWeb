@@ -1,0 +1,29 @@
+{
+  "slug": "geometria-sol-central",
+  "titulo": {
+    "es": "Geometría del Sol Central",
+    "en": "Central Sun Geometry"
+  },
+  "coleccion": "sacred-geometry",
+  "medidas": "61 × 91 cm",
+  "tecnica": "Óleo, pigmentos minerales y lámina dorada sobre bastidor",
+  "tecnica_en": "Oil, mineral pigments and gold foil on stretched canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "frase": {
+    "es": "Geometrías concéntricas inspiradas en la proporción áurea y los ciclos solares.",
+    "en": "Concentric geometries inspired by the golden ratio and solar cycles."
+  },
+  "imagenPrincipal": "/obras/geometria-sol-central/main.jpg",
+  "imagenesDetalle": [
+    "/obras/geometria-sol-central/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/geometria-sol-central/main.jpg",
+  "alt": {
+    "es": "Pintura de geometría sagrada vertical 61 × 91 cm con espiral áurea central, violeta amatista y ámbar solar.",
+    "en": "Vertical 61 × 91 cm sacred geometry painting with central golden spiral, amethyst violet and solar amber."
+  },
+  "isPlaceholder": true,
+  "placeholderNote": "[OBRA DE MUESTRA PRELIMINAR - PENDIENTE FOTO FINAL DE LA ARTISTA]"
+}
