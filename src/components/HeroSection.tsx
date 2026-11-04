@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { VortexSpiralSvg } from './svg/VortexSpiralSvg';
-import { Maximize2, Sparkles, ArrowRight, Eye } from 'lucide-react';
+import { Maximize2, ArrowRight, Eye } from 'lucide-react';
 import { artworksData } from '../data/artworks';
 
 interface HeroSectionProps {
@@ -19,7 +19,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 }) => {
   const { t, lang } = useLanguage();
   const heroArtwork = artworksData[0]; // Vortex Primordial (61x91cm)
-  const [spiralActive, setSpiralActive] = useState(false);
 
   return (
     <section
@@ -113,24 +112,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                   />
-
-                  {/* Optional Interactive Spiral Overlay toggle button */}
-                  <button
-                    type="button"
-                    onClick={() => setSpiralActive(!spiralActive)}
-                    className="absolute top-3 left-3 bg-black/70 hover:bg-black/90 backdrop-blur-md border border-[#E5A93C]/40 text-[#E5A93C] text-[11px] font-mono px-2.5 py-1 rounded flex items-center gap-1.5 transition-colors cursor-pointer"
-                    title="Alternar esquema de geometría sagrada"
-                  >
-                    <Sparkles className="w-3 h-3" />
-                    <span>{spiralActive ? 'Ocultar Geometría' : 'Ver Geometría'}</span>
-                  </button>
-
-                  {/* Dynamic Hand-Drawn SVG Spiral Overlay on Top of the Artwork */}
-                  {spiralActive && (
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-black/20 backdrop-blur-[1px] animate-in fade-in duration-500">
-                      <VortexSpiralSvg size={320} strokeColor="#FDE68A" />
-                    </div>
-                  )}
 
                   {/* Placeholder indicator banner (clearly marked as requested) */}
                   <div className="absolute bottom-3 left-3 right-3 bg-black/80 backdrop-blur-md border border-amber-500/30 px-2.5 py-1.5 rounded text-[10px] text-amber-200/90 font-mono text-center">

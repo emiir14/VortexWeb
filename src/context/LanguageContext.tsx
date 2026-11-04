@@ -40,7 +40,6 @@ const translations: Record<Language, Record<string, string>> = {
     'geometry.title': 'Geometría Sagrada',
     'geometry.p1': 'Círculos concéntricos, espirales áureas y simetrías esenciales. A lo largo de la historia, diversas culturas y creadores han relacionado estos patrones con el equilibrio, la proporción y el orden silencioso del cosmos.',
     'geometry.p2': 'En cada una de mis pinturas, la geometría no es un cálculo rígido, sino un lenguaje visual intuitivo: una trama de líneas y proporciones que invita a quien contempla a reencontrar un estado de serenidad.',
-    'geometry.overlayPrompt': 'Activa la capa geométrica para visualizar la espiral de Fibonacci y los ejes armónicos.',
 
     // Perception
     'perception.kicker': 'La Mirada Atenta',
@@ -151,7 +150,6 @@ const translations: Record<Language, Record<string, string>> = {
     'wall.inquireThis': 'Consultar esta obra para mi espacio',
 
     // Artwork Detail Modal
-    'detail.overlayBtn': 'Ver Geometría Sagrada (Fibonacci / Ejes)',
     'detail.loupeBtn': 'Lupa de Textura (2.5×)',
     'detail.metaDimensions': 'Dimensiones',
     'detail.metaTechnique': 'Técnica',
@@ -196,7 +194,6 @@ const translations: Record<Language, Record<string, string>> = {
     'geometry.title': 'Sacred Geometry',
     'geometry.p1': 'Concentric circles, golden spirals, and essential symmetries. Across history, cultures and visionaries have related these geometric patterns to visual equilibrium, proportion, and quiet cosmic balance.',
     'geometry.p2': 'In each painting, geometry is not a rigid calculation, but an intuitive visual vocabulary: a weave of golden ratios inviting whoever contemplates it to rediscover inner serenity.',
-    'geometry.overlayPrompt': 'Toggle the geometric overlay to view the Fibonacci spiral and harmonic axes.',
 
     // Perception
     'perception.kicker': 'The Attentive Gaze',
@@ -307,7 +304,6 @@ const translations: Record<Language, Record<string, string>> = {
     'wall.inquireThis': 'Inquire about this artwork for my space',
 
     // Artwork Detail Modal
-    'detail.overlayBtn': 'Show Sacred Geometry (Fibonacci / Axes)',
     'detail.loupeBtn': 'Texture Loupe (2.5×)',
     'detail.metaDimensions': 'Dimensions',
     'detail.metaTechnique': 'Technique',

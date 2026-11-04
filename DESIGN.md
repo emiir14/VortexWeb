@@ -101,12 +101,24 @@ La obra se organiza en dos universos complementarios, con una atmósfera visual 
   *Justificación*: Una fuente contemporánea de legibilidad excepcional, trazo sobrio y cálido humanismo. Garantiza que textos largos, fichas técnicas y citas se lean con comodidad sin restar protagonismo a la pintura.
 - **Cifras y Datos Técnicos**: Numerales tabulares (`font-mono tabular-nums`).
 
+### 4.1 Sistema Dual de Tema (Modo Claro & Modo Oscuro)
+Para responder fielmente a los dos universos del proyecto sin forzar contrastes antinaturales:
+- **Modo Oscuro (Inmersión Vórtex & Geometría)**:
+  - Fondo: Negro obsidiana y medianoche profunda (`#080C14` / `#0E1726`).
+  - Iluminación: Acentos en oro cálido (`#E5A93C`) y destellos en azul índigo.
+  - Sensación: Gravedad, movimiento cósmico, contemplación nocturna y foco teatral sobre los lienzos.
+- **Modo Claro (Serenidad de Meditación, Luz & Ángeles)**:
+  - Fondo: Alabastro cálido y blanco galería de museo (`#FAF7F2` / `#FFFFFF`).
+  - Tipografía & Acentos: Carbón mineral oscuro (`#1C1917` / `#292524`) y ámbar tostado (`#B45309`).
+  - Sensación: Luz natural de estudio de pintura, quietud, respiración y silencio diáfano.
+- Selector interactivo accesible en la barra superior con persistencia automática en `localStorage` y sincronización con las preferencias del sistema (`prefers-color-scheme`).
+
 ---
 
 ## 5. IDEA FIRMA DE INTERACCIÓN (Justificada)
 
-### "El Observador de Resonancia & Presencia Espacial"
-Para que la web sea verdaderamente STUNNING y tenga sentido exclusivo para esta artista:
+### "El Observador de Presencia Espacial & Textura"
+Para que la web sea verdaderamente STUNNING y preserve la pureza y protagonismo absoluto de las obras reales sin superposiciones artificiales:
 
 1. **Visor de Escala en Pared ("Ver en tu espacio")**:  
    Permite al coleccionista proyectar la obra en su proporción real de 61 × 91 cm dentro de 4 salas contemporáneas:
@@ -116,11 +128,8 @@ Para que la web sea verdaderamente STUNNING y tenga sentido exclusivo para esta 
    - Despacho de Alta Dirección.  
    Incluye ajuste de color de muro y comparativa con altura humana media para verificar cómo domina el espacio.
 
-2. **Capa Reveladora de Geometría Sagrada (Overlay Interactivo)**:  
-   Un interruptor discreto en la obra permite superponer las líneas matemáticas invisibles: la espiral de Fibonacci / proporción áurea ($\phi = 1.618$), el toroide de flujo electromagnético y la matriz armónica concéntrica. Muestra al visitante la estructura geométrica que sostiene la pintura.
-
-3. **Lupa Macro de Pigmento & Textura**:  
-   Permite explorar a 2.5× los relieves de óleo, las láminas de pan de oro y el grano del lino auténtico.
+2. **Lupa Macro de Pigmento & Textura**:  
+   Permite explorar a 2.5× los relieves de óleo, las láminas de pan de oro y el grano del lino auténtico, valorizando la técnica física y matérica de la artista.
 
 ---
 
@@ -128,9 +137,9 @@ Para que la web sea verdaderamente STUNNING y tenga sentido exclusivo para esta 
 
 | Criterio | Estado | Comprobación |
 |---|---|---|
-| ¿Podría pertenecer a cualquier artista cambiando fotos? | NO | Toda la arquitectura, los diagramas SVG, la simulación de 61 × 91 cm y los textos nacen del vórtice y la geometría. |
+| ¿Podría pertenecer a cualquier artista cambiando fotos? | NO | Toda la arquitectura, los diagramas SVG pedagógicos, la simulación de 61 × 91 cm y los textos nacen del vórtice y la geometría. |
 | ¿Hay plantilla evidente (hero genérico, píldoras, gradientes de IA)? | NO | Layout editorial asimétrico, sin badges de píldora, sin íconos cliché, con SVG trazados a mano en código. |
-| ¿Las pinturas mandan o las tapa el diseño? | MANDAN | La pintura ocupa el 65% del viewport en Hero y tiene zoom a pantalla completa. |
+| ¿Las pinturas mandan o las tapa el diseño? | MANDAN | La pintura ocupa el 65% del viewport en Hero y tiene zoom a pantalla completa sin elementos artificiales que la tapen. |
 | ¿La paleta sale de las obras reales? | SÍ | Extraída de las obras reales: ultramar, turquesa, oro y alabastro. |
-| ¿Hay una idea firma justificada? | SÍ | Simulador de pared a escala + Capa de Geometría Sagrada + Lupa de textura. |
+| ¿Hay una idea firma justificada? | SÍ | Simulador de pared a escala real + Lupa macro de textura física. |
 | ¿Algún texto promete sanación o usa su profesión como aval médico? | NO | Enmarcado exclusivamente como inspiración estética y experiencia espiritual personal. Aviso explícito en footer. |

@@ -2,7 +2,15 @@
 
 Sitio web contemporáneo de alta gama para la exhibición y adquisición de pinturas originales (61 × 91 cm) inspiradas en la energía vórtex, la geometría sagrada y la meditación.
 
-Desarrollado en **React, TypeScript y Tailwind CSS**, con arquitectura bilingüe (Español / Inglés), visualizador a escala real en pared, lupa macro de textura de pigmento, diagrama interactivo de resonancia geométrica y canal directo de asesoría vía WhatsApp y correo.
+Desarrollado en **React, TypeScript y Tailwind CSS**, con arquitectura multi-página bilingüe (Español / Inglés), URLs dedicadas por cuadro (`/obras/[slug]`), simulador a escala real en pared (61 × 91 cm), lupa macro de textura de pigmento y canal directo de asesoría vía WhatsApp y correo.
+
+### 🗺️ Rutas de la Aplicación
+- `/` o `/inicio`: Portada curatorial, obra protagonista, concepto condensado y anticipos.
+- `/obras`: Catálogo completo de colección con filtros por universo y especificaciones de formato.
+- `/obras/[slug]`: Ficha dedicada individual por pintura con URL compartible, lupa macro y WhatsApp.
+- `/sobre-mi`: Reportaje editorial sobre la artista, su formación en Perú y trayectoria.
+- `/meditaciones`: Sesiones grupales en Barcelona, París, Italia y Francia con formulario de avisos.
+- `/contacto`: Consultas personalizadas, WhatsApp y garantías de adquisición para coleccionistas.
 
 ---
 
