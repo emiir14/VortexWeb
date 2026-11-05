@@ -20,8 +20,8 @@ export const Navbar: React.FC = () => {
   }, []);
 
   const navLinks: { route: AppRoute; label: string }[] = [
-    { route: 'obras', label: lang === 'es' ? 'Obras' : 'Artworks' },
-    { route: 'sobre-mi', label: lang === 'es' ? 'Sobre la Artista' : 'About the Artist' },
+    { route: 'obras', label: lang === 'es' ? 'Nuestra galería' : 'Our Gallery' },
+    { route: 'sobre-mi', label: lang === 'es' ? 'Dra. Sylvia Pflücker' : 'Dr. Sylvia Pflücker' },
     { route: 'meditaciones', label: lang === 'es' ? 'Meditaciones' : 'Meditations' },
     { route: 'contacto', label: lang === 'es' ? 'Contacto' : 'Contact' },
   ];
@@ -54,9 +54,14 @@ export const Navbar: React.FC = () => {
             <a
               href="/"
               onClick={handleBrandClick}
-              className="text-lg md:text-xl font-editorial tracking-widest text-stone-900 dark:text-white hover:text-[#B45309] dark:hover:text-[#E5A93C] transition-colors whitespace-nowrap shrink-0 uppercase cursor-pointer"
+              className="flex items-center gap-2.5 group cursor-pointer whitespace-nowrap shrink-0"
             >
-              VÓRTEX <span className="text-[#B45309] dark:text-[#E5A93C] font-light">·</span> [COMPLETAR]
+              <span className="text-xl md:text-2xl font-editorial tracking-widest text-stone-900 dark:text-white group-hover:text-[#B45309] dark:group-hover:text-[#E5A93C] transition-colors uppercase">
+                Vortex Art
+              </span>
+              <span className="hidden sm:inline-block text-xs font-mono text-stone-500 dark:text-stone-400 border-l border-stone-300 dark:border-stone-700 pl-2">
+                Sylvia Pflücker
+              </span>
             </a>
 
             {/* Zone 2: Exactly 4 clean single-line navigation links */}
@@ -155,9 +160,14 @@ export const Navbar: React.FC = () => {
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-50 md:hidden bg-[#FAF7F2]/98 dark:bg-[#080C14]/98 backdrop-blur-xl flex flex-col justify-between p-6 pt-20 animate-in fade-in duration-200">
           <div className="flex justify-between items-center mb-8 border-b border-stone-200 dark:border-stone-800 pb-4">
-            <span className="text-lg font-editorial tracking-widest text-[#B45309] dark:text-[#E5A93C]">
-              VÓRTEX [COMPLETAR]
-            </span>
+            <div>
+              <span className="text-xl font-editorial tracking-widest text-[#B45309] dark:text-[#E5A93C] uppercase block">
+                Vortex Art
+              </span>
+              <span className="text-xs font-mono text-stone-500 dark:text-stone-400">
+                Sylvia Pflücker
+              </span>
+            </div>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}

@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
   const { t, lang, setLang } = useLanguage();
   const { navigate } = useNavigation();
   const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '34600000000';
-  const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || 'https://instagram.com/[COMPLETAR_USUARIO]';
+  const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || 'https://instagram.com/sylviapflucker_art';
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -29,12 +29,17 @@ export const Footer: React.FC = () => {
             <a
               href="/"
               onClick={(e) => handleLink(e, 'inicio')}
-              className="text-xl font-editorial tracking-widest text-stone-900 dark:text-white uppercase block hover:text-[#B45309] dark:hover:text-[#E5A93C] transition-colors cursor-pointer"
+              className="group cursor-pointer block"
             >
-              VÓRTEX <span className="text-[#B45309] dark:text-[#E5A93C] font-light">·</span> [COMPLETAR]
+              <span className="text-xl font-editorial tracking-widest text-stone-900 dark:text-white uppercase block group-hover:text-[#B45309] dark:group-hover:text-[#E5A93C] transition-colors">
+                Vortex Art
+              </span>
+              <span className="text-xs font-mono text-stone-500 dark:text-stone-400">
+                Sylvia Pflücker · Artista Contemporánea
+              </span>
             </a>
             <p className="text-xs font-light text-stone-600 dark:text-stone-400 leading-relaxed max-w-sm">
-              Pinturas originales sobre energía vórtice, geometría sagrada y meditación. Lienzos verticales de 61 × 91 cm en óleo, acrílico y pan de oro.
+              El arte como expresión de energía y geometría. Pinturas originales de 70 × 40 cm en técnicas mixtas, relieve escultórico y pan de oro creadas en Florida.
             </p>
             <div className="pt-2 flex items-center gap-3">
               <a
@@ -70,7 +75,7 @@ export const Footer: React.FC = () => {
                   onClick={(e) => handleLink(e, 'obras')}
                   className="hover:text-[#B45309] dark:hover:text-[#E5A93C] transition-colors cursor-pointer"
                 >
-                  Catálogo de Obras (61 × 91 cm)
+                  Catálogo de Obras (70 × 40 cm)
                 </a>
               </li>
               <li>
@@ -151,7 +156,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="pt-4 text-center text-xs font-mono text-stone-500 dark:text-stone-400">
-          <p>© {new Date().getFullYear()} [COMPLETAR: Nombre de la Artista]. {t('footer.rights')}</p>
+          <p>© {new Date().getFullYear()} Sylvia Pflücker — Vortex Art. {t('footer.rights')}</p>
         </div>
 
       </div>

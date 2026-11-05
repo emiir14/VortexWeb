@@ -1,4 +1,9 @@
-export type CollectionType = 'vortex-art' | 'sacred-geometry' | 'meditation-angels';
+export type CollectionType =
+  | 'vortices'
+  | 'geometria-sagrada'
+  | 'patrones-naturales'
+  | 'conexion-angelical'
+  | 'colecciones-especiales';
 
 export type ArtworkStatus = 'disponible' | 'reservada' | 'vendida';
 
@@ -16,6 +21,11 @@ export interface Artwork {
   ano: number;
   estado: ArtworkStatus;
   precio?: string;
+  descripcion?: {
+    es: string;
+    en: string;
+    [key: string]: string;
+  };
   frase?: {
     es: string;
     en: string;

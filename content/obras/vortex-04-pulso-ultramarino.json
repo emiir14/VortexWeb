@@ -1,0 +1,32 @@
+{
+  "slug": "vortex-04-pulso-ultramarino",
+  "titulo": {
+    "es": "Vortex No. 04 — Pulso Marino",
+    "en": "Vortex No. 04 — Marine Pulse"
+  },
+  "coleccion": "vortices",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Acrílico texturizado y veladuras minerales sobre lino",
+  "tecnica_en": "Textured acrylic and mineral glazes on linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Exploración de la fuerza centrífuga del agua y el viento en ondas concéntricas. Su gama turquesa y azul marino crea una sensación de frescura, amplitud y calma reconfortante.",
+    "en": "Exploration of the centrifugal force of water and wind in concentric ripples. Its turquoise and navy palette creates a sense of freshness, spaciousness, and comforting calm."
+  },
+  "frase": {
+    "es": "El movimiento del agua que recuerda el fluir natural de todas las cosas.",
+    "en": "The movement of water reminding us of the natural flow of all things."
+  },
+  "imagenPrincipal": "/obras/vortex-04-pulso-ultramarino/main.jpg",
+  "imagenesDetalle": [
+    "/obras/vortex-04-pulso-ultramarino/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/vortex-04-pulso-ultramarino/main.jpg",
+  "alt": {
+    "es": "Pintura con vórtice marino concéntrico en turquesa y azul profundo con textura matérica.",
+    "en": "Painting featuring a concentric marine vortex in turquoise and deep blue with rich material texture."
+  },
+  "isPlaceholder": false
+}

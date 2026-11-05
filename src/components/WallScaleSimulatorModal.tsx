@@ -67,7 +67,7 @@ export const WallScaleSimulatorModal: React.FC<WallScaleSimulatorModalProps> = (
                 {t('wall.modalTitle')}
               </h3>
               <p className="text-xs font-mono text-stone-600 dark:text-stone-400">
-                {artwork.titulo[lang]} · 61 × 91 cm (24 × 36 in)
+                {artwork.titulo[lang]} · 70 × 40 cm (aprox. 16 × 28 in)
               </p>
             </div>
           </div>
@@ -98,10 +98,10 @@ export const WallScaleSimulatorModal: React.FC<WallScaleSimulatorModalProps> = (
             <span>0.00 m (Suelo)</span>
           </div>
 
-          {/* Artwork centered in simulated room at exact 61 × 91 cm proportion */}
+          {/* Artwork centered in simulated room at exact 70 × 40 cm proportion */}
           <div className="relative mb-20 sm:mb-24 z-10">
             <div className={`transition-all duration-300 ${frameClasses[frame]}`}>
-              <div className="relative w-[150px] sm:w-[190px] aspect-[2/3] overflow-hidden bg-black/20">
+              <div className="relative w-[130px] sm:w-[165px] aspect-[4/7] overflow-hidden bg-black/20">
                 <img
                   src={artwork.imagenPrincipal}
                   alt={artwork.alt[lang]}

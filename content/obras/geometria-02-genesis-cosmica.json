@@ -1,0 +1,33 @@
+{
+  "slug": "geometria-02-genesis-cosmica",
+  "titulo": {
+    "es": "Geometría No. 02 — Génesis Cósmica & Lapislázuli",
+    "en": "Geometry No. 02 — Cosmic Genesis & Lapis Lazuli"
+  },
+  "coleccion": "geometria-sagrada",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Técnica mixta, pigmento lapislázuli, óxidos y relieves texturales sobre lino",
+  "tecnica_en": "Mixed media, lapis lazuli pigment, oxides and textural reliefs on linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Exploración pictórica de la fuerza centrípeta y los campos de torsión universal. Su superficie rica en texturas combina matices de zafiro, óxidos terracota y vetas de luz pura en un vórtice cósmico envolvente.",
+    "en": "Pictorial exploration of centripetal force and universal torsion fields. Its rich textured surface blends sapphire nuances, terracotta oxides, and veins of pure light into an enveloping cosmic vortex."
+  },
+  "frase": {
+    "es": "El orden geométrico como puente entre la materia visible y la vibración invisible.",
+    "en": "Geometric order as a bridge between visible matter and invisible vibration."
+  },
+  "imagenPrincipal": "/obras/geometria-02-genesis-cosmica/main.jpg",
+  "imagenesDetalle": [
+    "/obras/geometria-02-genesis-cosmica/main.jpg",
+    "/artista/presentacion_galeria.jpg"
+  ],
+  "imagenAmbiente": "/artista/presentacion_galeria.jpg",
+  "alt": {
+    "es": "Pintura con vórtice cósmico profundo en lapislázuli, toques dorados y óxidos terracota.",
+    "en": "Painting featuring a deep cosmic vortex in lapis lazuli, gold highlights and terracotta oxides."
+  },
+  "isPlaceholder": false
+}

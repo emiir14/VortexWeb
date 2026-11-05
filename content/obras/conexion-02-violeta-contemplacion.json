@@ -1,0 +1,32 @@
+{
+  "slug": "conexion-02-violeta-contemplacion",
+  "titulo": {
+    "es": "Conexión No. 02 — Violeta Contemplación",
+    "en": "Connection No. 02 — Contemplative Violet"
+  },
+  "coleccion": "conexion-angelical",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Pigmentos amatista, oro suave y veladuras de meditación sobre lino belga",
+  "tecnica_en": "Amethyst pigments, soft gold and meditative glazes on Belgian linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Sutileza cromática en tonalidades violeta, magenta suave y toques de luz ámbar. Concebida para favorecer la introspección y el diálogo interior en el hogar.",
+    "en": "Chromatic delicacy in shades of violet, soft magenta, and amber light touches. Conceived to promote introspection and inner dialogue in the home."
+  },
+  "frase": {
+    "es": "En la quietud del color púrpura mora la paz del pensamiento.",
+    "en": "In the stillness of purple color rests the peace of thought."
+  },
+  "imagenPrincipal": "/obras/conexion-02-violeta-contemplacion/main.jpg",
+  "imagenesDetalle": [
+    "/obras/conexion-02-violeta-contemplacion/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/conexion-02-violeta-contemplacion/main.jpg",
+  "alt": {
+    "es": "Pintura con veladuras violeta y púrpuras suaves con motas doradas y textura contemplativa.",
+    "en": "Painting with violet and soft purple glazes with golden specks and meditative texture."
+  },
+  "isPlaceholder": false
+}

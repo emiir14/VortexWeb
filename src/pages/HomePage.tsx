@@ -17,7 +17,7 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
 
   const heroArtwork = artworks[0];
   const featuredArtworks = [artworks[0], artworks[1], artworks[3]];
-  const angelPreview = artworks.find((a) => a.coleccion === 'meditation-angels') || artworks[3];
+  const angelPreview = artworks.find((a) => a.coleccion === 'conexion-angelical') || artworks[3];
 
   return (
     <div className="min-h-screen">
@@ -40,7 +40,7 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
               <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#B45309] dark:text-[#E5A93C] font-mono mb-6">
                 <span>{t('hero.badge')}</span>
                 <span aria-hidden="true" className="text-stone-400 dark:text-stone-600">·</span>
-                <span>61 × 91 cm</span>
+                <span>70 × 40 cm</span>
                 <span aria-hidden="true" className="text-stone-400 dark:text-stone-600">·</span>
                 <span>Lino Belga</span>
               </div>
@@ -76,7 +76,7 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
               <div className="pt-8 border-t border-stone-200 dark:border-stone-800/80 flex flex-wrap items-center gap-y-3 gap-x-8 text-xs text-stone-500 dark:text-stone-400 font-mono">
                 <div className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#B45309] dark:bg-[#E5A93C]" />
-                  <span>Formato vertical: 61 × 91 cm</span>
+                  <span>Formato vertical: 70 × 40 cm</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-cyan-600 dark:bg-cyan-400" />
@@ -106,9 +106,11 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
                       className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                     />
 
-                    <div className="absolute bottom-3 left-3 right-3 bg-black/80 backdrop-blur-md border border-amber-500/30 px-2.5 py-1.5 rounded text-[10px] text-amber-200 font-mono text-center">
-                      {heroArtwork.placeholderNote}
-                    </div>
+                    {heroArtwork.placeholderNote && (
+                      <div className="absolute bottom-3 left-3 right-3 bg-black/80 backdrop-blur-md border border-amber-500/30 px-2.5 py-1.5 rounded text-[10px] text-amber-200 font-mono text-center">
+                        {heroArtwork.placeholderNote}
+                      </div>
+                    )}
                   </div>
 
                   <div className="mt-4 pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
@@ -158,14 +160,14 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <span className="text-xs font-mono uppercase tracking-widest text-[#B45309] dark:text-[#E5A93C] block mb-3">
-              {t('vortex.kicker')}
+              Vortex Art · Filosofía &amp; Forma
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-editorial text-stone-900 dark:text-white mb-6">
-              El Vórtice, la Geometría y el Espacio
+              {t('about.title')}
             </h2>
             <div className="w-12 h-0.5 bg-[#B45309] dark:bg-[#E5A93C] mx-auto mb-6" />
             <p className="text-base sm:text-lg text-stone-600 dark:text-stone-300 font-light leading-relaxed">
-              Un vórtice es el movimiento que gira alrededor de un centro en la naturaleza: remolinos de agua cristalina, galaxias espirales y corrientes atmosféricas. En el arte de la artista, se transforma en un símbolo de reunión, dinamismo y serenidad interior.
+              {t('about.p1')} {t('about.p2')}
             </p>
           </div>
 
@@ -234,7 +236,7 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
                 Selección de Colección
               </span>
               <h2 className="text-3xl sm:text-4xl font-editorial text-stone-900 dark:text-white">
-                Obras Destacadas (61 × 91 cm)
+                Obras Destacadas (70 × 40 cm)
               </h2>
             </div>
 
@@ -243,7 +245,7 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
               onClick={() => navigate('obras')}
               className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#B45309] dark:text-[#E5A93C] hover:underline transition-colors cursor-pointer self-start"
             >
-              <span>{lang === 'es' ? 'Ver catálogo completo (6 obras)' : 'View all 6 artworks'}</span>
+              <span>{lang === 'es' ? 'Ver catálogo completo (13 obras)' : 'View all 13 artworks'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
@@ -378,22 +380,24 @@ export const HomePage: React.FC<HomePageProps> = ({ artworks, onOpenWallModal })
       <section className="py-20 bg-[#FAF7F2] dark:bg-[#080C14] border-t border-stone-200 dark:border-stone-800 text-center transition-colors duration-300">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <span className="text-xs font-mono uppercase tracking-widest text-[#B45309] dark:text-[#E5A93C] block mb-3">
-            La Artista
+            {lang === 'es' ? 'La Artista · Sylvia Pflücker' : 'The Artist · Sylvia Pflücker'}
           </span>
           <blockquote className="text-2xl sm:text-3xl font-editorial italic text-stone-900 dark:text-white mb-6">
-            «De la concentración milimétrica de la salud a la libertad contemplativa del lienzo.»
+            «{lang === 'es' ? 'El arte como expresión de energía y geometría.' : 'Art as an expression of energy and geometry.'}»
           </blockquote>
-          <p className="text-sm text-stone-600 dark:text-stone-400 font-light max-w-xl mx-auto mb-8">
-            Empresaria, odontóloga de profesión y artista plástica formada en Perú. Descubre su transición vital y qué significa para ella pintar vórtices y guiar meditaciones.
+          <p className="text-sm text-stone-600 dark:text-stone-400 font-light max-w-xl mx-auto mb-8 leading-relaxed">
+            {t('about.artistBio')}
           </p>
-          <button
-            type="button"
-            onClick={() => navigate('sobre-mi')}
-            className="inline-flex items-center gap-2 px-6 py-3 text-xs font-mono uppercase tracking-wider text-stone-800 dark:text-stone-200 border border-stone-300 dark:border-stone-700 hover:border-[#B45309] dark:hover:border-[#E5A93C] hover:text-[#B45309] dark:hover:text-[#E5A93C] transition-colors rounded cursor-pointer"
-          >
-            <span>Leer su historia completa</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
+          <div className="flex justify-center gap-4">
+            <button
+              type="button"
+              onClick={() => navigate('sobre-mi')}
+              className="inline-flex items-center gap-2 px-6 py-3 text-xs font-mono uppercase tracking-wider text-stone-800 dark:text-stone-200 border border-stone-300 dark:border-stone-700 hover:border-[#B45309] dark:hover:border-[#E5A93C] hover:text-[#B45309] dark:hover:text-[#E5A93C] transition-colors rounded cursor-pointer"
+            >
+              <span>{lang === 'es' ? 'Conocer a la Dra. Sylvia Pflücker' : 'About Dr. Sylvia Pflücker'}</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
         </div>
       </section>
 

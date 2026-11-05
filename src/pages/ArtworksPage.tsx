@@ -48,8 +48,8 @@ export const ArtworksPage: React.FC<ArtworksPageProps> = ({
 
   const specs = [
     {
-      title: 'Proporción 2:3 vertical',
-      detail: '61 cm de ancho × 91 cm de alto (24 × 36 in). Una proporción armónica derivada de la tradición clásica de las bellas artes.',
+      title: 'Formato vertical 70 × 40 cm',
+      detail: '40 cm de ancho × 70 cm de alto (aprox. 16 × 28 in). Una proporción esbelta y armónica concebida para la contemplación en espacios contemporáneos.',
       icon: <Ruler className="w-4 h-4 text-[#B45309] dark:text-[#E5A93C]" />,
     },
     {
@@ -77,13 +77,13 @@ export const ArtworksPage: React.FC<ArtworksPageProps> = ({
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8 pb-8 border-b border-stone-200 dark:border-stone-800">
           <div>
             <span className="text-xs font-mono uppercase tracking-widest text-[#B45309] dark:text-[#E5A93C] block mb-3">
-              Catálogo de Colección
+              Vortex Art · Sylvia Pflücker
             </span>
             <h1 className="text-4xl sm:text-5xl font-editorial text-stone-900 dark:text-white mb-4">
-              Pinturas Originales (61 × 91 cm)
+              {t('gallery.title')}
             </h1>
             <p className="text-base text-stone-600 dark:text-stone-400 font-light max-w-2xl leading-relaxed">
-              Cada pintura es una pieza única realizada en óleo, acrílico y pan de oro auténtico sobre bastidor de lino belga. Selecciona una obra para ver su ficha individual, examinar su textura o proyectarla en escala real en tu pared.
+              {t('gallery.subtitle')}
             </p>
           </div>
 
@@ -102,20 +102,20 @@ export const ArtworksPage: React.FC<ArtworksPageProps> = ({
             </button>
             <button
               type="button"
-              onClick={() => setActiveFilter('vortex-art')}
+              onClick={() => setActiveFilter('vortices')}
               className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
-                activeFilter === 'vortex-art'
+                activeFilter === 'vortices'
                   ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
                   : 'text-stone-600 dark:text-stone-400 hover:text-black dark:hover:text-white'
               }`}
             >
-              {t('gallery.filter.vortex')}
+              {t('gallery.filter.vortices')}
             </button>
             <button
               type="button"
-              onClick={() => setActiveFilter('sacred-geometry')}
+              onClick={() => setActiveFilter('geometria-sagrada')}
               className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
-                activeFilter === 'sacred-geometry'
+                activeFilter === 'geometria-sagrada'
                   ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
                   : 'text-stone-600 dark:text-stone-400 hover:text-black dark:hover:text-white'
               }`}
@@ -124,14 +124,36 @@ export const ArtworksPage: React.FC<ArtworksPageProps> = ({
             </button>
             <button
               type="button"
-              onClick={() => setActiveFilter('meditation-angels')}
+              onClick={() => setActiveFilter('patrones-naturales')}
               className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
-                activeFilter === 'meditation-angels'
+                activeFilter === 'patrones-naturales'
                   ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
                   : 'text-stone-600 dark:text-stone-400 hover:text-black dark:hover:text-white'
               }`}
             >
-              {t('gallery.filter.angels')}
+              {t('gallery.filter.natural')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveFilter('conexion-angelical')}
+              className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
+                activeFilter === 'conexion-angelical'
+                  ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
+                  : 'text-stone-600 dark:text-stone-400 hover:text-black dark:hover:text-white'
+              }`}
+            >
+              {t('gallery.filter.angelical')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveFilter('colecciones-especiales')}
+              className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
+                activeFilter === 'colecciones-especiales'
+                  ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
+                  : 'text-stone-600 dark:text-stone-400 hover:text-black dark:hover:text-white'
+              }`}
+            >
+              {t('gallery.filter.special')}
             </button>
           </div>
         </div>
@@ -241,7 +263,7 @@ export const ArtworksPage: React.FC<ArtworksPageProps> = ({
               Especificaciones Técnicas
             </span>
             <h2 className="text-2xl sm:text-3xl font-editorial text-stone-900 dark:text-white mb-4">
-              El Formato de Referencia: 61 × 91 cm
+              El Formato de Referencia: 70 × 40 cm
             </h2>
             <p className="text-sm text-stone-600 dark:text-stone-400 font-light leading-relaxed">
               La artista ha seleccionado esta dimensión vertical con rigor: acompaña la escala del cuerpo humano, preside con elegancia muros de 2,60 m de altura estándar y concentra la fuerza visual de la composición en un marco equilibrado.

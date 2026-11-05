@@ -35,7 +35,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
   const [isSuccess, setIsSuccess] = useState(false);
 
   const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '34600000000';
-  const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || 'https://instagram.com/[COMPLETAR_USUARIO]';
+  const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || 'https://instagram.com/sylviapflucker_art';
 
   const defaultWhatsappMessage = encodeURIComponent(
     artworkInterest
@@ -131,14 +131,14 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   <div className="p-2 bg-stone-100 dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded text-[#B45309] dark:text-[#E5A93C]">
                     <Instagram className="w-4 h-4" />
                   </div>
-                  <span>Instagram: @[COMPLETAR_USUARIO]</span>
+                  <span>Instagram: @sylviapflucker_art</span>
                 </a>
 
                 <div className="flex items-center gap-3">
                   <div className="p-2 bg-stone-100 dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded text-[#B45309] dark:text-[#E5A93C]">
                     <Mail className="w-4 h-4" />
                   </div>
-                  <span>contacto@tu-dominio.com [COMPLETAR]</span>
+                  <span>info@vortexart.com</span>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 <CreditCard className="w-4 h-4" />
                 <span className="font-semibold text-stone-900 dark:text-stone-200">Formas de Pago Aceptadas</span>
               </div>
-              <p>Transferencia bancaria internacional, Stripe, tarjeta de crédito y Bizum (España). [COMPLETAR pasarelas finales].</p>
+              <p>Transferencia bancaria internacional (Wire / ACH), Stripe, tarjeta de crédito y PayPal.</p>
             </div>
           </div>
 

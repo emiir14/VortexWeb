@@ -1,0 +1,32 @@
+{
+  "slug": "conexion-03-aurora-de-luz",
+  "titulo": {
+    "es": "Conexión No. 03 — Aurora de Luz",
+    "en": "Connection No. 03 — Dawn of Light"
+  },
+  "coleccion": "conexion-angelical",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Técnica mixta con mica, pigmentos luminosos y relieves sutiles sobre lienzo",
+  "tecnica_en": "Mixed media with mica, luminous pigments and subtle reliefs on canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Una atmósfera de amanecer místico donde veladuras luminosas de tonos coral, cielo y destellos dorados componen un lienzo de serenidad expansiva y esperanza.",
+    "en": "A mystical sunrise atmosphere where luminous glazes of coral, sky tones, and golden flecks create a canvas of expansive serenity and hope."
+  },
+  "frase": {
+    "es": "Cada despertar es una invitación a recomenzar en plenitud.",
+    "en": "Every awakening is an invitation to begin anew in wholeness."
+  },
+  "imagenPrincipal": "/obras/conexion-03-aurora-de-luz/main.jpg",
+  "imagenesDetalle": [
+    "/obras/conexion-03-aurora-de-luz/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/conexion-03-aurora-de-luz/main.jpg",
+  "alt": {
+    "es": "Pintura etérea con tonalidades amanecer, destellos dorados y veladuras celestiales.",
+    "en": "Ethereal painting with dawn hues, golden shimmers, and celestial glazes."
+  },
+  "isPlaceholder": false
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "vortex-01-oceano-oro",
+  "titulo": {
+    "es": "Vortex No. 01 — Océano & Oro",
+    "en": "Vortex No. 01 — Ocean & Gold"
+  },
+  "coleccion": "vortices",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Óleo, acrílico, pigmentos y pan de oro sobre lino belga",
+  "tecnica_en": "Oil, acrylic, pigments and gold leaf on Belgian linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Una composición artística inspirada en patrones circulares y formas geométricas que representan el movimiento de los vórtices. Su estructura visual crea profundidad y dinamismo, convirtiéndola en una pieza central cautivadora para cualquier espacio.",
+    "en": "An artistic composition inspired by circular patterns and geometric shapes that represent the movement of vortices. Its visual structure creates depth and dynamism, making it a striking centerpiece for any space."
+  },
+  "frase": {
+    "es": "El movimiento espiral que despierta la memoria del espacio y concentra el silencio en su eje.",
+    "en": "The spiral movement that awakens the memory of space and concentrates silence at its axis."
+  },
+  "imagenPrincipal": "/obras/vortex-01-oceano-oro/main.jpg",
+  "imagenesDetalle": [
+    "/obras/vortex-01-oceano-oro/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/vortex-01-oceano-oro/main.jpg",
+  "alt": {
+    "es": "Pintura vertical de 70 × 40 cm con vórtice en azul ultramarino profundo, turquesa mineral y destellos de pan de oro.",
+    "en": "Vertical 70 × 40 cm painting depicting a deep ultramarine, turquoise and gold leaf vortex."
+  },
+  "isPlaceholder": false
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "vortex-03-radiacion-carmesi",
+  "titulo": {
+    "es": "Vortex No. 03 — Radiación Carmesí & Índigo",
+    "en": "Vortex No. 03 — Crimson & Indigo Radiation"
+  },
+  "coleccion": "vortices",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Óleo y técnica mixta con relieves en espiral concéntrica sobre lino",
+  "tecnica_en": "Oil and mixed media with concentric spiral relief on linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Un vórtice de profunda vibración cromática donde destellos carmesí emergen de un océano azul y texturas circulares trabajadas pacientemente, expandiendo el espacio circundante.",
+    "en": "A vortex of deep chromatic vibration where crimson rays emerge from a blue ocean with patiently sculpted circular textures, expanding the surrounding space."
+  },
+  "frase": {
+    "es": "La vibración del color transforma el silencio de los muros en una presencia viva.",
+    "en": "The vibration of color transforms the silence of walls into a living presence."
+  },
+  "imagenPrincipal": "/obras/vortex-03-radiacion-carmesi/main.jpg",
+  "imagenesDetalle": [
+    "/obras/vortex-03-radiacion-carmesi/main.jpg",
+    "/artista/presentacion_galeria.jpg"
+  ],
+  "imagenAmbiente": "/artista/presentacion_galeria.jpg",
+  "alt": {
+    "es": "Pintura con vórtice en tonos azules con rayos carmesí y relieves de espiral.",
+    "en": "Painting featuring a blue vortex with crimson rays and spiral relief."
+  },
+  "isPlaceholder": false
+}

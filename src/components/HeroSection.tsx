@@ -43,7 +43,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#E5A93C] font-mono mb-6">
               <span>{t('hero.badge')}</span>
               <span aria-hidden="true" className="text-stone-600">·</span>
-              <span>61 × 91 cm</span>
+              <span>70 × 40 cm</span>
               <span aria-hidden="true" className="text-stone-600">·</span>
               <span>Lino Belga</span>
             </div>
@@ -82,7 +82,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="pt-8 border-t border-stone-800/80 flex flex-wrap items-center gap-y-3 gap-x-8 text-xs text-stone-400 font-mono">
               <div className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#E5A93C]" />
-                <span>Formato exacto: 61 × 91 cm</span>
+                <span>Formato exacto: 70 × 40 cm</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />

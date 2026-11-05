@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Calendar, Compass, Sparkles, GraduationCap, Building2, Heart } from 'lucide-react';
+import { Compass, Sparkles, Palette, Layers, Eye, Award } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
   const { t, lang } = useLanguage();
@@ -8,27 +8,35 @@ export const AboutSection: React.FC = () => {
   const timelineMilestones = [
     {
       year: t('about.timeline.1.year'),
-      title: 'Formación en Artes Plásticas en Perú',
-      desc: 'Descubrimiento del lenguaje de los pigmentos, el dibujo clásico y las proporciones armónicas en Perú. [Nombre de escuela y años: COMPLETAR].',
-      icon: <GraduationCap className="w-4 h-4 text-[#E5A93C]" />,
+      title: lang === 'es' ? 'Formación Artística en Perú' : 'Fine Arts in Peru',
+      desc: lang === 'es'
+        ? 'Estudios de bellas artes, exploración clásica de pigmentos, composición geométrica y primeros desarrollos escultóricos.'
+        : 'Fine arts academic training, exploration of pigments, geometric draftsmanship, and early sculptural inquiries.',
+      icon: <Palette className="w-4 h-4 text-[#E5A93C]" />,
     },
     {
       year: t('about.timeline.2.year'),
-      title: 'Vocación Sanitaria y Emprendimiento',
-      desc: 'Ejercicio como odontóloga de profesión y creación de clínicas dentales, donde la concentración rigurosa y el cuidado humano modelaron su templanza.',
-      icon: <Building2 className="w-4 h-4 text-[#E5A93C]" />,
+      title: lang === 'es' ? 'Taller en Florida & Práctica Mixta' : 'Florida Studio & Mixed Media',
+      desc: lang === 'es'
+        ? 'Radicada en Florida, integra técnicas mixtas, texturas táctiles de gran riqueza, pan de oro y relieves escultóricos.'
+        : 'Based in Florida, blending mixed techniques, richly textured surfaces, fine gold leaf, and sculptural elements.',
+      icon: <Layers className="w-4 h-4 text-[#E5A93C]" />,
     },
     {
       year: t('about.timeline.3.year'),
-      title: 'Encuentro con el Vórtex y el Lienzo',
-      desc: 'La práctica meditativa diaria se canaliza en lienzos verticales de 61 × 91 cm, explorando el movimiento en espiral y la geometría sagrada.',
+      title: lang === 'es' ? 'Génesis de Vortex Art' : 'Genesis of Vortex Art',
+      desc: lang === 'es'
+        ? 'Investigación continua sobre la energía de los vórtices, la geometría sagrada y los patrones dinámicos de la naturaleza.'
+        : 'Ongoing exploration of vortex energy, sacred geometry, and the rhythmic dynamic patterns of the natural world.',
       icon: <Compass className="w-4 h-4 text-[#E5A93C]" />,
     },
     {
       year: t('about.timeline.4.year'),
-      title: 'Meditaciones Grupales en Europa',
-      desc: 'Más de 15 sesiones guiadas de meditación en Barcelona, París, e Italia y Francia [confirmar ciudades y cifra exacta], uniendo pintura, silencio y contemplación.',
-      icon: <Heart className="w-4 h-4 text-[#E5A93C]" />,
+      title: lang === 'es' ? 'Poder Transformador de los Espacios' : 'Transforming Power of Space',
+      desc: lang === 'es'
+        ? 'Obras concebidas para generar atmósferas vivas, transmitir resiliencia y propiciar una conexión contemplativa profunda.'
+        : 'Artworks crafted to establish living atmospheres, convey emotional resilience, and inspire contemplative stillness.',
+      icon: <Sparkles className="w-4 h-4 text-[#E5A93C]" />,
     },
   ];
 
@@ -46,35 +54,33 @@ export const AboutSection: React.FC = () => {
           </h2>
           <div className="w-12 h-0.5 bg-[#E5A93C] mb-6" />
           <p className="text-base font-mono text-[#E5A93C]/90">
-            {t('about.name')} — {t('about.subtitle')}
+            {t('brand.name')} · {t('about.name')} — {t('about.subtitle')}
           </p>
         </div>
 
-        {/* 2-Column Story Grid: Large Portrait + First-Person Narrative */}
+        {/* 2-Column Story Grid: Artist Portrait + Official Narrative */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start mb-24">
           
           {/* Portrait Column (5 cols) */}
           <div className="lg:col-span-5 flex flex-col items-center">
-            <div className="relative w-full max-w-sm sm:max-w-md bg-[#0E1726] p-3 rounded-lg border border-stone-800 shadow-2xl">
+            <div className="relative w-full max-w-sm sm:max-w-md bg-[#0E1726] p-3.5 rounded-lg border border-stone-800 shadow-2xl">
               <div className="relative aspect-[3/4] overflow-hidden rounded bg-black/40">
                 <img
                   src="/artista/retrato_estudio.jpg"
-                  alt="Retrato de la artista en su taller de pintura"
+                  alt="Sylvia Pflücker en su estudio de arte"
                   className="w-full h-full object-cover"
                 />
-                
-                {/* Clear Placeholder Badge */}
-                <div className="absolute bottom-3 left-3 right-3 bg-black/85 backdrop-blur-md border border-amber-500/30 px-3 py-1.5 rounded text-[10px] text-amber-200 font-mono text-center">
-                  [FOTO RETRATO PRELIMINAR - PENDIENTE FOTO FINAL DE LA ARTISTA]
-                </div>
               </div>
 
               <div className="mt-4 pt-3 border-t border-stone-800 text-center">
-                <p className="text-xs font-editorial italic text-stone-300">
-                  «Pintar es escuchar el movimiento del espacio hasta encontrar su centro.»
+                <p className="text-base font-editorial text-white">
+                  Dra. Sylvia Pflücker
+                </p>
+                <p className="text-xs font-editorial italic text-stone-300 mt-0.5">
+                  «El arte como expresión de energía y geometría.»
                 </p>
                 <span className="text-[11px] font-mono text-stone-500 block mt-1">
-                  En el taller frente al bastidor de 61 × 91 cm
+                  Artista plástica contemporánea · Florida
                 </span>
               </div>
             </div>
@@ -82,25 +88,38 @@ export const AboutSection: React.FC = () => {
 
           {/* Narrative Column (7 cols) */}
           <div className="lg:col-span-7 space-y-6 text-stone-300 font-light leading-relaxed">
-            <p className="text-lg text-white font-normal">
+            <p className="text-lg text-white font-normal leading-relaxed">
               {t('about.p1')}
             </p>
 
-            <p className="text-base">
+            <p className="text-base leading-relaxed">
               {t('about.p2')}
             </p>
 
-            <p className="text-base">
+            <p className="text-base leading-relaxed">
               {t('about.p3')}
             </p>
 
-            {/* Note to the Artist for completion */}
-            <div className="p-4 bg-[#0E1726] border border-amber-500/30 rounded text-xs font-mono text-amber-200/90 space-y-1">
-              <p className="font-semibold text-[#E5A93C]">
-                ✦ Nota para la artista:
+            {/* Philosophy Callout */}
+            <div className="p-6 bg-[#0E1726] border border-[#E5A93C]/30 rounded-lg space-y-2 mt-4">
+              <div className="flex items-center gap-2">
+                <Award className="w-4 h-4 text-[#E5A93C]" />
+                <h3 className="text-sm font-mono uppercase tracking-widest text-[#E5A93C] font-semibold">
+                  {t('about.philosophyTitle')}
+                </h3>
+              </div>
+              <p className="text-stone-200 text-sm font-editorial italic leading-relaxed">
+                «{t('about.philosophyDesc')}»
               </p>
-              <p>
-                Este texto es un borrador honesto basado exclusivamente en tus datos confirmados. Puedes responder a las 6 preguntas de <code>GUIA-SOBRE-MI.md</code> para incluir tus palabras exactas y la fecha de fundación de tus clínicas.
+            </div>
+
+            {/* The Artist Bio Card */}
+            <div className="p-6 bg-stone-900/60 border border-stone-800 rounded-lg space-y-2">
+              <h4 className="text-xs font-mono uppercase tracking-wider text-stone-400">
+                {t('about.artistTitle')} · Artista Contemporánea
+              </h4>
+              <p className="text-xs text-stone-300 leading-relaxed font-light">
+                {t('about.artistBio')}
               </p>
             </div>
           </div>
@@ -111,7 +130,7 @@ export const AboutSection: React.FC = () => {
         <div className="pt-12 border-t border-stone-800/80">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs font-mono uppercase tracking-widest text-[#E5A93C] block mb-2">
-              Trayectoria
+              {lang === 'es' ? 'Práctica & Trayectoria' : 'Practice & Background'}
             </span>
             <h3 className="text-2xl sm:text-3xl font-editorial text-white">
               {t('about.timeline.title')}

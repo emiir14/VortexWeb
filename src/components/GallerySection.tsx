@@ -65,7 +65,7 @@ export const GallerySection: React.FC<GallerySectionProps> = ({
             </p>
           </div>
 
-          {/* Functional Filter Tabs (Interactive Segmented Control - Allowed by §1.A) */}
+          {/* Functional Filter Tabs */}
           <div className="flex flex-wrap items-center gap-1.5 p-1 bg-[#0E1726] border border-stone-800 rounded-lg self-start">
             <button
               type="button"
@@ -80,20 +80,20 @@ export const GallerySection: React.FC<GallerySectionProps> = ({
             </button>
             <button
               type="button"
-              onClick={() => setActiveFilter('vortex-art')}
+              onClick={() => setActiveFilter('vortices')}
               className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
-                activeFilter === 'vortex-art'
+                activeFilter === 'vortices'
                   ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
                   : 'text-stone-400 hover:text-white'
               }`}
             >
-              {t('gallery.filter.vortex')}
+              {t('gallery.filter.vortices')}
             </button>
             <button
               type="button"
-              onClick={() => setActiveFilter('sacred-geometry')}
+              onClick={() => setActiveFilter('geometria-sagrada')}
               className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
-                activeFilter === 'sacred-geometry'
+                activeFilter === 'geometria-sagrada'
                   ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
                   : 'text-stone-400 hover:text-white'
               }`}
@@ -102,14 +102,36 @@ export const GallerySection: React.FC<GallerySectionProps> = ({
             </button>
             <button
               type="button"
-              onClick={() => setActiveFilter('meditation-angels')}
+              onClick={() => setActiveFilter('patrones-naturales')}
               className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
-                activeFilter === 'meditation-angels'
+                activeFilter === 'patrones-naturales'
                   ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
                   : 'text-stone-400 hover:text-white'
               }`}
             >
-              {t('gallery.filter.angels')}
+              {t('gallery.filter.natural')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveFilter('conexion-angelical')}
+              className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
+                activeFilter === 'conexion-angelical'
+                  ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
+                  : 'text-stone-400 hover:text-white'
+              }`}
+            >
+              {t('gallery.filter.angelical')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveFilter('colecciones-especiales')}
+              className={`px-3.5 py-1.5 text-xs font-mono uppercase tracking-wider rounded-md transition-colors cursor-pointer ${
+                activeFilter === 'colecciones-especiales'
+                  ? 'bg-[#E5A93C] text-black font-semibold shadow-sm'
+                  : 'text-stone-400 hover:text-white'
+              }`}
+            >
+              {t('gallery.filter.special')}
             </button>
           </div>
         </div>

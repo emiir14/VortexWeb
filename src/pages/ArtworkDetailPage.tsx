@@ -126,7 +126,7 @@ export const ArtworkDetailPage: React.FC<ArtworkDetailPageProps> = ({
                 className="text-xs font-mono px-3.5 py-1.5 rounded flex items-center gap-2 transition-colors cursor-pointer border bg-white dark:bg-[#0E1726] text-stone-700 dark:text-stone-300 border-stone-300 dark:border-stone-800 hover:border-[#B45309] dark:hover:border-[#E5A93C] shadow-sm"
               >
                 <Eye className="w-3.5 h-3.5 text-[#B45309] dark:text-[#E5A93C]" />
-                <span>Ver en tu pared (61 × 91 cm)</span>
+                <span>Ver en tu pared (70 × 40 cm)</span>
               </button>
             </div>
 
@@ -159,7 +159,7 @@ export const ArtworkDetailPage: React.FC<ArtworkDetailPageProps> = ({
             </div>
 
             <p className="mt-4 text-xs font-mono text-stone-500 dark:text-stone-400 text-center">
-              Lienzo vertical de 61 × 91 cm montado en bastidor de lino belga.
+              Lienzo vertical de 70 × 40 cm montado en bastidor de lino belga.
             </p>
 
           </div>
@@ -169,59 +169,74 @@ export const ArtworkDetailPage: React.FC<ArtworkDetailPageProps> = ({
             
             <div>
               <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-[#B45309] dark:text-[#E5A93C] mb-2">
-                <span>{artwork.coleccion.replace('-', ' ')}</span>
+                <span>Vortex Art</span>
                 <span>·</span>
-                <span className="text-stone-500 dark:text-stone-400">{artwork.ano}</span>
+                <span className="capitalize">{artwork.coleccion.replace('-', ' ')}</span>
               </div>
 
               <h1 className="text-3xl sm:text-4xl font-editorial text-stone-900 dark:text-white mb-4">
                 {artwork.titulo[lang]}
               </h1>
 
-              {artwork.frase && (
+              {/* Curatorial Description (Requested Format) */}
+              {artwork.descripcion ? (
+                <p className="text-sm text-stone-700 dark:text-stone-300 font-light leading-relaxed mb-6">
+                  {artwork.descripcion[lang] || artwork.descripcion['es']}
+                </p>
+              ) : artwork.frase && (
                 <p className="text-base font-editorial italic text-stone-700 dark:text-stone-300 border-l-2 border-[#B45309] dark:border-[#E5A93C]/50 pl-4 py-1 mb-6">
                   «{artwork.frase[lang]}»
                 </p>
               )}
 
-              {/* Accession Definition List */}
-              <dl className="border-t border-b border-stone-200 dark:border-stone-800 divide-y divide-stone-200 dark:divide-stone-800/80 mb-6 text-xs font-mono">
-                <div className="py-2.5 flex justify-between">
-                  <dt className="text-stone-500 dark:text-stone-400 flex items-center gap-1.5">
-                    <Ruler className="w-3.5 h-3.5 text-[#B45309] dark:text-[#E5A93C]" />
-                    <span>Medidas</span>
-                  </dt>
-                  <dd className="text-stone-900 dark:text-stone-200 font-medium">{artwork.medidas} (24 × 36 in)</dd>
-                </div>
-                
-                <div className="py-2.5 flex justify-between">
-                  <dt className="text-stone-500 dark:text-stone-400 flex items-center gap-1.5">
-                    <Layers className="w-3.5 h-3.5 text-[#B45309] dark:text-[#E5A93C]" />
-                    <span>Técnica</span>
-                  </dt>
-                  <dd className="text-stone-900 dark:text-stone-200 font-medium text-right max-w-[220px]">
-                    {lang === 'es' ? artwork.tecnica : artwork.tecnica_en}
-                  </dd>
-                </div>
+              {/* Specifications Header and Definition List (Exact user format) */}
+              <div className="mb-6">
+                <span className="text-xs font-mono uppercase tracking-widest text-stone-900 dark:text-stone-200 block mb-2 font-semibold">
+                  {t('detail.specifications')}
+                </span>
 
-                <div className="py-2.5 flex justify-between">
-                  <dt className="text-stone-500 dark:text-stone-400 flex items-center gap-1.5">
-                    <Calendar className="w-3.5 h-3.5 text-[#B45309] dark:text-[#E5A93C]" />
-                    <span>Año</span>
-                  </dt>
-                  <dd className="text-stone-900 dark:text-stone-200 font-medium">{artwork.ano}</dd>
-                </div>
+                <dl className="border-t border-b border-stone-200 dark:border-stone-800 divide-y divide-stone-200 dark:divide-stone-800/80 text-xs font-mono">
+                  <div className="py-2.5 flex justify-between gap-4">
+                    <dt className="text-stone-500 dark:text-stone-400 flex items-center gap-1.5 shrink-0">
+                      <Layers className="w-3.5 h-3.5 text-[#B45309] dark:text-[#E5A93C]" />
+                      <span>{t('detail.metaTechnique')}</span>
+                    </dt>
+                    <dd className="text-stone-900 dark:text-stone-200 font-medium text-right">
+                      {lang === 'es' ? artwork.tecnica : artwork.tecnica_en}
+                    </dd>
+                  </div>
 
-                <div className="py-2.5 flex justify-between">
-                  <dt className="text-stone-500 dark:text-stone-400">Disponibilidad</dt>
-                  <dd className="text-emerald-700 dark:text-emerald-400 uppercase font-semibold">● {artwork.estado}</dd>
-                </div>
+                  <div className="py-2.5 flex justify-between gap-4">
+                    <dt className="text-stone-500 dark:text-stone-400 flex items-center gap-1.5 shrink-0">
+                      <Ruler className="w-3.5 h-3.5 text-[#B45309] dark:text-[#E5A93C]" />
+                      <span>{t('detail.metaDimensions')}</span>
+                    </dt>
+                    <dd className="text-stone-900 dark:text-stone-200 font-medium text-right">
+                      {artwork.medidas} (aprox. 16 × 28 in)
+                    </dd>
+                  </div>
 
-                <div className="py-2.5 flex justify-between">
-                  <dt className="text-stone-500 dark:text-stone-400">Precio</dt>
-                  <dd className="text-[#B45309] dark:text-[#E5A93C] font-semibold text-sm">{artwork.precio || 'Consultar'}</dd>
-                </div>
-              </dl>
+                  <div className="py-2.5 flex justify-between gap-4">
+                    <dt className="text-stone-500 dark:text-stone-400 shrink-0">
+                      {t('detail.metaStatus')}
+                    </dt>
+                    <dd className="text-right">
+                      <span className={artwork.estado === 'disponible' ? 'text-emerald-700 dark:text-emerald-400 font-semibold uppercase' : 'text-stone-500 dark:text-stone-400 uppercase font-semibold'}>
+                        ● {artwork.estado}
+                      </span>
+                    </dd>
+                  </div>
+
+                  <div className="py-2.5 flex justify-between gap-4">
+                    <dt className="text-stone-500 dark:text-stone-400 shrink-0">
+                      {t('detail.metaPrice')}
+                    </dt>
+                    <dd className="text-[#B45309] dark:text-[#E5A93C] font-semibold text-right">
+                      {artwork.precio || (lang === 'es' ? 'Consultar disponibilidad' : 'Inquire for price')}
+                    </dd>
+                  </div>
+                </dl>
+              </div>
 
               {/* Collector Guarantees */}
               <div className="space-y-2.5 bg-white dark:bg-[#0E1726]/60 p-4 rounded-lg border border-stone-200 dark:border-stone-800 text-xs text-stone-700 dark:text-stone-300 font-light shadow-sm dark:shadow-none">

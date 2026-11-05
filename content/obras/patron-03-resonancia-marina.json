@@ -1,0 +1,32 @@
+{
+  "slug": "patron-03-resonancia-marina",
+  "titulo": {
+    "es": "Patrón No. 03 — Resonancia Marina & Sales",
+    "en": "Pattern No. 03 — Marine Resonance & Salt Textures"
+  },
+  "coleccion": "patrones-naturales",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Pigmentos azul ultramar, verde espuma, sales minerales y acrílico sobre lienzo",
+  "tecnica_en": "Ultramarine pigments, seafoam green, mineral salts and acrylic on canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Composición de gran riqueza matérica inspirada en los depósitos de sal marina y las formaciones de algas oceánicas. Capas translúcidas de verde esmeralda y violeta tenue producen una textura orgánica inmersiva.",
+    "en": "A richly textured composition inspired by sea salt deposits and oceanic kelp formations. Translucent layers of emerald green and delicate violet evoke an immersive organic texture."
+  },
+  "frase": {
+    "es": "En la orilla de la textura, el océano deja su impronta geológica.",
+    "en": "At the shore of texture, the ocean leaves its geological imprint."
+  },
+  "imagenPrincipal": "/obras/patron-03-resonancia-marina/main.jpg",
+  "imagenesDetalle": [
+    "/obras/patron-03-resonancia-marina/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/patron-03-resonancia-marina/main.jpg",
+  "alt": {
+    "es": "Pintura vertical en tonos verdes agua, violetas y texturas salinas orgánicas.",
+    "en": "Vertical painting with sea green, subtle violets and organic crystalline textures."
+  },
+  "isPlaceholder": false
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "vortex-02-resonancia-cobre",
+  "titulo": {
+    "es": "Vortex No. 02 — Resonancia Cobre",
+    "en": "Vortex No. 02 — Copper Resonance"
+  },
+  "coleccion": "vortices",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Técnica mixta con relieve escultórico y pátinas de cobre sobre lienzo",
+  "tecnica_en": "Mixed media with sculptural relief and copper patinas on canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Obra centrada en la resonancia de los tonos cobrizos y tierras profundas. Los surcos concéntricos invitan al recogimiento y evocan los ciclos magnéticos de la tierra y los vórtices energéticos.",
+    "en": "Artwork centered on the resonance of copper tones and deep earth hues. Concentric grooves invite contemplation and evoke the magnetic cycles of the earth and energetic vortices."
+  },
+  "frase": {
+    "es": "Donde la materia adquiere ritmo, la energía encuentra su centro.",
+    "en": "Where matter takes on rhythm, energy finds its center."
+  },
+  "imagenPrincipal": "/obras/vortex-02-resonancia-cobre/main.jpg",
+  "imagenesDetalle": [
+    "/obras/vortex-02-resonancia-cobre/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/vortex-02-resonancia-cobre/main.jpg",
+  "alt": {
+    "es": "Pintura vertical de 70 × 40 cm en técnica mixta con texturas concéntricas y tonos cobrizos metalizados.",
+    "en": "Vertical 70 × 40 cm painting in mixed media with concentric textures and metallic copper tones."
+  },
+  "isPlaceholder": false
+}

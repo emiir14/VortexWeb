@@ -1,0 +1,32 @@
+{
+  "slug": "patron-01-vortices-fluviales",
+  "titulo": {
+    "es": "Patrón No. 01 — Vórtices Fluviales & Musgo",
+    "en": "Pattern No. 01 — Fluvial Vortices & Moss"
+  },
+  "coleccion": "patrones-naturales",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Técnica mixta con elementos texturales y tonos térreos-vegetales sobre lino",
+  "tecnica_en": "Mixed media with textural elements and earthy botanical tones on linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Una mirada a los vórtices que el agua dibuja al abrazar piedras y corrientes forestales. Sus gamas de verde olivo, musgo y ocres minerales conectan cualquier estancia con la serenidad de los ecosistemas vivos.",
+    "en": "A tribute to the vortices traced by water as it winds around river stones and forest streams. Its olive green, moss, and mineral ochre tones ground any room in the quiet vitality of living ecosystems."
+  },
+  "frase": {
+    "es": "La naturaleza no improvisa: cada remolino es una ecuación de fluidez y calma.",
+    "en": "Nature does not improvise: every eddy is an equation of fluidity and calm."
+  },
+  "imagenPrincipal": "/obras/patron-01-vortices-fluviales/main.jpg",
+  "imagenesDetalle": [
+    "/obras/patron-01-vortices-fluviales/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/patron-01-vortices-fluviales/main.jpg",
+  "alt": {
+    "es": "Pintura vertical en tonos verdes, musgo y ocres con patrones de múltiples vórtices entrelazados.",
+    "en": "Vertical painting in green, moss, and ochre hues with intertwined multi-vortex patterns."
+  },
+  "isPlaceholder": false
+}

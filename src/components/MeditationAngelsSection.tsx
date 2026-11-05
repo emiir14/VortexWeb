@@ -17,11 +17,11 @@ export const MeditationAngelsSection: React.FC<MeditationAngelsSectionProps> = (
   onInquireWhatsapp,
 }) => {
   const { t, lang } = useLanguage();
-  const angelArtworks = artworks.filter((art) => art.coleccion === 'meditation-angels');
+  const angelArtworks = artworks.filter((art) => art.coleccion === 'conexion-angelical');
 
   return (
     <section
-      id="meditation-angels"
+      id="conexion-angelical"
       className="py-28 bg-[#FAF8F5] text-stone-900 border-t border-stone-200 relative transition-colors duration-700"
     >
       {/* Delicate background illumination simulating natural dawn window light */}

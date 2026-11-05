@@ -31,7 +31,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
   }, [selectedArtworkTitle]);
 
   const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '34600000000';
-  const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || 'https://instagram.com/[COMPLETAR_USUARIO]';
+  const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || 'https://instagram.com/sylviapflucker_art';
 
   const defaultWhatsappMessage = encodeURIComponent(
     artworkInterest
@@ -97,14 +97,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                 <div className="p-2 bg-stone-900 border border-stone-800 rounded text-[#E5A93C]">
                   <Instagram className="w-4 h-4" />
                 </div>
-                <span>Instagram: @[COMPLETAR_USUARIO]</span>
+                <span>Instagram: @sylviapflucker_art</span>
               </a>
 
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-stone-900 border border-stone-800 rounded text-[#E5A93C]">
                   <Mail className="w-4 h-4" />
                 </div>
-                <span>contacto@tu-dominio.com [COMPLETAR]</span>
+                <span>info@vortexart.com</span>
               </div>
             </div>
           </div>

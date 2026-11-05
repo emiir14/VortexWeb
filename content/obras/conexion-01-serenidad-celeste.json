@@ -1,0 +1,32 @@
+{
+  "slug": "conexion-01-serenidad-celeste",
+  "titulo": {
+    "es": "Conexión No. 01 — Serenidad Celeste",
+    "en": "Connection No. 01 — Celestial Serenity"
+  },
+  "coleccion": "conexion-angelical",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Técnica mixta translúcida, toques de pan de oro y veladuras sobre lino",
+  "tecnica_en": "Translucent mixed media, gold leaf touches and glazes on linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Una composición abstracta inspirada en la presencia sutil y luminosa de las alas angélicas. Su juego de celestes, dorados etéreos y lavandas aporta una profunda sensación de sosiego, protección y armonía para espacios de descanso o meditación.",
+    "en": "An abstract composition inspired by the subtle and luminous presence of angelic wings. Its dance of celestial blues, ethereal golds, and lavenders instills deep tranquility, protection, and harmony into rest or meditation spaces."
+  },
+  "frase": {
+    "es": "La luz que abraza sin invadir, invitando a una respiración serena.",
+    "en": "The light that embraces without invading, inviting calm respiration."
+  },
+  "imagenPrincipal": "/obras/conexion-01-serenidad-celeste/main.jpg",
+  "imagenesDetalle": [
+    "/obras/conexion-01-serenidad-celeste/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/conexion-01-serenidad-celeste/main.jpg",
+  "alt": {
+    "es": "Pintura etérea en tonos azul cielo, lavanda y veladuras doradas inspirada en conexión angelical.",
+    "en": "Ethereal painting in sky blue, lavender and golden glazes inspired by angelic connection."
+  },
+  "isPlaceholder": false
+}

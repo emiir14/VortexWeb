@@ -71,7 +71,7 @@ export const AcquisitionTrustSection: React.FC = () => {
             <CreditCard className="w-5 h-5 text-[#E5A93C] shrink-0" />
             <div>
               <p className="text-stone-300 font-medium">Formas de pago aceptadas:</p>
-              <p>Transferencia bancaria internacional, Stripe, tarjeta de crédito y Bizum (España). [COMPLETAR pasarelas finales].</p>
+              <p>Transferencia bancaria internacional (Wire / ACH), Stripe, tarjeta de crédito y PayPal.</p>
             </div>
           </div>
           <span className="text-stone-500 shrink-0">Atención personalizada con la artista</span>

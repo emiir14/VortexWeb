@@ -1,0 +1,32 @@
+{
+  "slug": "patron-02-ritmo-del-viento",
+  "titulo": {
+    "es": "Patrón No. 02 — Ritmo del Viento",
+    "en": "Pattern No. 02 — Rhythm of the Wind"
+  },
+  "coleccion": "patrones-naturales",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Óleo enérgico y trazo gestual sobre lienzo de lino",
+  "tecnica_en": "Energetic oil and gestural brushwork on linen canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Trazos curvos ascendentes y dinámicos en tonos lima, esmeralda y rosas silvestres que capturan la danza invisible del viento sobre praderas abiertas y copas de árboles en movimiento.",
+    "en": "Upward, dynamic curved brushstrokes in lime, emerald, and wild rose tones capturing the invisible choreography of wind sweeping across open meadows and moving canopies."
+  },
+  "frase": {
+    "es": "El viento no se ve, pero el arte hace visible su trayectoria invisible.",
+    "en": "The wind cannot be seen, yet art renders its invisible path palpable."
+  },
+  "imagenPrincipal": "/obras/patron-02-ritmo-del-viento/main.jpg",
+  "imagenesDetalle": [
+    "/obras/patron-02-ritmo-del-viento/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/patron-02-ritmo-del-viento/main.jpg",
+  "alt": {
+    "es": "Pintura gestual con curvas verdes luminosas y fondo rosado evocando el viento.",
+    "en": "Gestural painting with luminous green sweeps and soft pink background evoking the wind."
+  },
+  "isPlaceholder": false
+}

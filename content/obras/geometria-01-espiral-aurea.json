@@ -1,0 +1,33 @@
+{
+  "slug": "geometria-01-espiral-aurea",
+  "titulo": {
+    "es": "Geometría No. 01 — Espiral Áurea & Polvo Solar",
+    "en": "Geometry No. 01 — Golden Spiral & Solar Dust"
+  },
+  "coleccion": "geometria-sagrada",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Pigmentos dorados, violeta y técnica mixta de alta textura sobre lienzo",
+  "tecnica_en": "Gold pigments, violet and high-texture mixed media on canvas",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Una composición regida por las proporciones armónicas de la espiral dorada. Manchas punteadas de color oro solar y tonos violeta irradian desde el núcleo hacia el exterior, creando una atmósfera de reverencia y equilibrio.",
+    "en": "A composition governed by the harmonious proportions of the golden spiral. Solar gold dotted pigments and violet tones radiate from the core outwards, creating an atmosphere of reverence and balance."
+  },
+  "frase": {
+    "es": "La geometría es el lenguaje secreto mediante el cual la naturaleza organiza la belleza.",
+    "en": "Geometry is the secret language through which nature organizes beauty."
+  },
+  "imagenPrincipal": "/obras/geometria-01-espiral-aurea/main.jpg",
+  "imagenesDetalle": [
+    "/obras/geometria-01-espiral-aurea/main.jpg",
+    "/artista/presentacion_galeria.jpg"
+  ],
+  "imagenAmbiente": "/artista/presentacion_galeria.jpg",
+  "alt": {
+    "es": "Pintura con espiral en polvo dorado y tonos violeta rosados con textura radiante.",
+    "en": "Painting featuring a golden dust spiral and pinkish-violet tones with radiant texture."
+  },
+  "isPlaceholder": false
+}

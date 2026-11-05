@@ -7,8 +7,8 @@ export const FormatSection: React.FC = () => {
 
   const specs = [
     {
-      title: 'Proporción 2:3 vertical',
-      detail: '61 cm de ancho × 91 cm de alto (24 × 36 pulgadas). Una proporción armónica derivada de la tradición clásica de las bellas artes.',
+      title: 'Formato vertical 70 × 40 cm',
+      detail: '40 cm de ancho × 70 cm de alto (aprox. 16 × 28 pulgadas). Una proporción esbelta y armónica concebida para la contemplación en espacios contemporáneos.',
       icon: <Ruler className="w-4 h-4 text-[#E5A93C]" />,
     },
     {
@@ -34,21 +34,21 @@ export const FormatSection: React.FC = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          {/* Left Column: Architectural Blueprint Diagram of 61 × 91 cm (5 cols) */}
+          {/* Left Column: Architectural Blueprint Diagram of 70 × 40 cm (5 cols) */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-64 sm:w-72 aspect-[2/3] border-2 border-dashed border-[#E5A93C]/50 rounded p-4 flex flex-col justify-between items-center bg-[#0E1726]/60 shadow-xl">
+            <div className="relative w-60 sm:w-64 aspect-[4/7] border-2 border-dashed border-[#E5A93C]/50 rounded p-4 flex flex-col justify-between items-center bg-[#0E1726]/60 shadow-xl">
               
               {/* Width dimension callout */}
               <div className="w-full flex items-center justify-between text-xs font-mono text-[#E5A93C] pb-2 border-b border-[#E5A93C]/30">
                 <span>◀</span>
-                <span>61 cm (24 in)</span>
+                <span>40 cm (16 in)</span>
                 <span>▶</span>
               </div>
 
               {/* Central Golden Ratio Spiral Silhouette */}
               <div className="flex flex-col items-center justify-center my-auto">
                 <span className="text-3xl font-editorial text-white tracking-widest font-light mb-1">
-                  61 × 91
+                  70 × 40
                 </span>
                 <span className="text-xs font-mono text-stone-400">
                   Formato Oficial
@@ -57,7 +57,7 @@ export const FormatSection: React.FC = () => {
 
               {/* Height dimension callout */}
               <div className="w-full flex items-center justify-between text-xs font-mono text-[#E5A93C] pt-2 border-t border-[#E5A93C]/30">
-                <span>▲ 91 cm (36 in)</span>
+                <span>▲ 70 cm (28 in)</span>
                 <span>Canto: 3,5 cm</span>
               </div>
 

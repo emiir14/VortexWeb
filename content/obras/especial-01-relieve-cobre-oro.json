@@ -1,0 +1,32 @@
+{
+  "slug": "especial-01-relieve-cobre-oro",
+  "titulo": {
+    "es": "Colección Especial No. 01 — Relieve Cobre & Oro Rosa",
+    "en": "Special Collection No. 01 — Copper & Rose Gold Relief"
+  },
+  "coleccion": "colecciones-especiales",
+  "medidas": "70 × 40 cm",
+  "tecnica": "Elemento escultórico con láminas de cobre, pan de oro rosa y pátinas sobre lino",
+  "tecnica_en": "Sculptural element with copper foil, rose gold leaf and patinas on linen",
+  "ano": 2024,
+  "estado": "disponible",
+  "precio": "Consultar / Inquire",
+  "descripcion": {
+    "es": "Pieza singular de la colección especial que combina pintura de gran textura con elementos escultóricos metálicos. Sus reflejos cobrizos y oro rosa interactúan dinámicamente con la luz natural a lo largo de las distintas horas del día.",
+    "en": "A unique piece from the special collection merging high-texture painting with sculptural metallic elements. Its copper and rose gold reflections interact dynamically with natural light throughout different hours of the day."
+  },
+  "frase": {
+    "es": "El relieve metálico captura la luz y la devuelve como calidez viva.",
+    "en": "The metallic relief captures light and returns it as living warmth."
+  },
+  "imagenPrincipal": "/obras/especial-01-relieve-cobre-oro/main.jpg",
+  "imagenesDetalle": [
+    "/obras/especial-01-relieve-cobre-oro/main.jpg"
+  ],
+  "imagenAmbiente": "/obras/especial-01-relieve-cobre-oro/main.jpg",
+  "alt": {
+    "es": "Obra escultórica y pictórica con pátinas de cobre brillante, oro rosa y texturas minerales sobre lienzo.",
+    "en": "Sculptural and pictorial artwork with brilliant copper patinas, rose gold and mineral textures on canvas."
+  },
+  "isPlaceholder": false
+}

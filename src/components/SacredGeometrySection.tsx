@@ -120,7 +120,7 @@ export const SacredGeometrySection: React.FC = () => {
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-4 h-4 text-[#E5A93C] shrink-0 mt-1" />
                 <p className="text-sm text-stone-300">
-                  <strong className="text-white font-medium">Proporción áurea en 61 × 91 cm:</strong> La relación dimensional del bastidor se alinea estrechamente con la proporción dorada tradicional.
+                  <strong className="text-white font-medium">Proporción armónica en 70 × 40 cm:</strong> La relación dimensional vertical del bastidor favorece un foco de contemplación esbelto y equilibrado.
                 </p>
               </div>
               <div className="flex items-start gap-3">
